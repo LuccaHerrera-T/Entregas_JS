@@ -1,0 +1,108 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+
+/* Contenedor principal */
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Encabezados */
+h1 {
+    color: #00796b;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #00695c;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #d32f2f;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+/* Lista de síntomas */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    background-color: #b2ebf2;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    color: #004d40;
+}
+
+/* Texto general */
+p {
+    color: #004d40;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Mensaje de resultado */
+#resultMessage {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    color: #9eb4f0;
+    margin-top: auto;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 10px 0;
+    border-top: 1px solid #e0e0e0;
+}
+
+footer h6 {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+/* Mejoras para dispositivos pequeños */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+    
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    h2 {
+        font-size: 1.4rem;
+    }
+    
+    h3 {
+        font-size: 1.1rem;
+    }
+}
