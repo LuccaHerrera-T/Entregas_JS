@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador Diagnóstico Médico</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Simulador Diagnóstico Médico</h1>
+        <p>
+            Este simulador presenta una serie de síntomas donde el usuario debe diagnosticar correctamente la
+            enfermedad.
+            <br>Es una simulacion para probar con mis compañeros de la universidad nuestros conocimientos sobre estas
+            enfermedades, Por ningun motivo deverian tomarse como diagnosticos.
+            <br>Ante la presencia de dichos sintomas consulte con su Medico de Cabecera.
+        </p>
+        <h2>Síntomas presentados:</h2>
+        <ul id="symptomList"></ul>
+        <!-- Mostrara la lista de sintomas para que no sea necesario acceder a la consola, lo hice de esta forma para evitar futuros inconvenientes. -->
+
+        <h3 id="resultMessage"></h3> <!-- Mostrara el resultado sobre el diagnostico del usuario -->
+    </div>
+
+    <footer>
+        <h6>
+            Simulacion Creada por Lucca Yair Herrera, no debe tomarse como diagnostico medico.
+        </h6>
+    </footer>
+    <script src="./js/simuladorMedico.js"></script>
+</body>
+
+</html>
