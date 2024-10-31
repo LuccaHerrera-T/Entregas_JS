@@ -1,0 +1,129 @@
+/* Estilo general */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 50px;
+}
+
+/* Contenedor principal */
+.container {
+    background-color: #a4cec5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Encabezados */
+h1 {
+    color: #00796b;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+/* Lista de síntomas */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    background-color: #b2ebf2;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    color: #004d40;
+}
+
+/* Texto general */
+p {
+    color: #004d40;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Mensaje de resultado */
+#resultMessage {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: #d32f2f;
+}
+
+/* Input y Botones */
+input {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #00796b;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 10px;
+}
+
+/* Estilo del botón Enviar */
+#enviarRespuesta {
+    background-color: #81d4fa;
+    color: #004d40;
+    transition: background-color 0.3s ease;
+}
+
+#enviarRespuesta:hover {
+    background-color: #4fc3f7;
+}
+
+/* Estilo del botón Limpiar */
+#limpiarDiagnostico {
+    background-color: #ce93d8;
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+#limpiarDiagnostico:hover {
+    background-color: #ba68c8;
+}
+
+/* Centrado de botones */
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    color: #757575;
+    margin-top: auto;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 10px 0;
+    border-top: 1px solid #e0e0e0;
+}
+
+footer h6 {
+    margin: 0;
+    font-size: 0.9rem;
+}

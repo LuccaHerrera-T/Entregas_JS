@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador Medico</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simulador Diagnóstico Médico</h1>
+        <p>
+            Este simulador presenta una serie de síntomas donde el usuario debe diagnosticar correctamente la
+            enfermedad.
+            <br>Es una simulacion para probar con mis compañeros de la universidad nuestros conocimientos sobre estas
+            enfermedades, Por ningun motivo deverian tomarse como diagnosticos.
+            <br>Ante la presencia de dichos sintomas consulte con su Medico de Cabecera.
+        </p>
+        <h2>Síntomas presentados:</h2>
+
+        <!-- Lista de síntomas -->
+        <ul id="sintomasLista"></ul>
+
+        <!-- Input del usuario -->
+        <input type="text" id="respuestaUsuario" placeholder="Ingresa el diagnóstico">
+
+        <!-- Contenedor para los botones -->
+        <div class="buttons-container">
+            <button id="enviarRespuesta">Enviar Diagnóstico</button>
+            <button id="limpiarDiagnostico">Limpiar Diagnóstico</button>
+        </div>
+
+        <!-- Mostrar resultado -->
+        <p id="resultMessage"></p>
+    </div>
+
+    <footer>
+        <h6>Simulación Creada por Lucca Yair Herrera, no debe tomarse como diagnóstico médico.</h6>
+    </footer>
+
+    <script src="./js/simuladorMedico.js"></script>
+</body>
+</html>
+
