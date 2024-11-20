@@ -1,0 +1,62 @@
+[
+    {
+        "nombre": "Gripe",
+        "sintomas": ["Fiebre", "Tos", "Dolor de garganta", "Congestión nasal"],
+        "categoria": "Común"
+    },
+    {
+        "nombre": "Covid-19",
+        "sintomas": ["Fiebre", "Dificultad para respirar", "Pérdida del olfato", "Dolor muscular"],
+        "categoria": "Infecciosa"
+    },
+    {
+        "nombre": "Migraña",
+        "sintomas": ["Dolor de cabeza intenso", "Sensibilidad a la luz", "Náuseas", "Visión borrosa"],
+        "categoria": "Neurológica"
+    },
+    {
+        "nombre": "Gastritis",
+        "sintomas": ["Dolor abdominal", "Acidez estomacal", "Náuseas", "Sensación de llenura"],
+        "categoria": "Digestiva"
+    },
+    {
+        "nombre": "Diabetes",
+        "sintomas": ["Sed excesiva", "Micción frecuente", "Fatiga", "Hambre extrema"],
+        "categoria": "Crónica"
+    },
+    {
+        "nombre": "Hipertensión",
+        "sintomas": ["Dolor de cabeza", "Mareos", "Dificultad para respirar", "Palpitaciones"],
+        "categoria": "Cardiovascular"
+    },
+    {
+        "nombre": "Bronquitis",
+        "sintomas": ["Tos persistente", "Flema", "Fatiga", "Dolor en el pecho"],
+        "categoria": "Respiratoria"
+    },
+    {
+        "nombre": "Apendicitis",
+        "sintomas": ["Dolor abdominal agudo", "Náuseas", "Fiebre baja", "Vómitos"],
+        "categoria": "Quirúrgica"
+    },
+    {
+        "nombre": "Neumonía",
+        "sintomas": ["Dificultad para respirar", "Dolor en el pecho", "Tos con flema", "Escalofríos"],
+        "categoria": "Respiratoria"
+    },
+    {
+        "nombre": "Asma",
+        "sintomas": ["Dificultad para respirar", "Silbidos al respirar", "Opresión en el pecho", "Tos"],
+        "categoria": "Respiratoria"
+    },
+    {
+        "nombre": "Anemia",
+        "sintomas": ["Fatiga", "Palidez", "Dificultad para concentrarse", "Mareos"],
+        "categoria": "Hematológica"
+    },
+    {
+        "nombre": "Amigdalitis",
+        "sintomas": ["Dolor de garganta", "Fiebre", "Dificultad para tragar", "Ganglios inflamados"],
+        "categoria": "Común"
+    }
+]
